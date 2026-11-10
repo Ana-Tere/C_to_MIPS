@@ -1,0 +1,23 @@
+int calculate(int a, int b) {     
+	return a * b; 
+}  
+
+int main() {     
+	int x = 12;     
+	int y = 8;     
+	int z;      
+	for (int i = 12; i <= 16; i++) {        
+		x = i;          
+	
+		if (x != 15) {             
+			y = y - 5;             
+			z = calculate(x, y);         
+		}         
+	
+		else {            
+			x = x - 3;             
+			z = calculate(x, y);         
+		}     
+	} 
+} 
+
